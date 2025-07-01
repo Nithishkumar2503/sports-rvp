@@ -1,0 +1,25 @@
+#sports_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #30445a;
+    overflow: hidden;
+}
+
+#sports-layout-header {
+    width: 100vw;
+    height: 80px;
+    background-color: transparent;
+}
+
+#sports-layout-main {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#sports-layout-menu {
+    margin: auto;
+    width: calc(100vw - 40rem);
+    display: flex;
+    flex-wrap: wrap;
+}

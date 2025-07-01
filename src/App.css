@@ -1,0 +1,10 @@
+#main_header {
+  height: 90px;
+  width: 100vw;
+}
+
+#main_content {
+  width: 100vw;
+  height: calc(100% - 5.6rem);
+  overflow-y: auto;
+}

@@ -1,0 +1,8 @@
+/* src/styles/variables.css */
+:root {
+  --primary-color: #4f46e5;
+  --secondary-color: #64748b;
+  --text-color: #1e293b;
+  --background-color: #f8fafc;
+  --radius:10px;
+}

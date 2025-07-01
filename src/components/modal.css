@@ -1,0 +1,37 @@
+#modal-bg-screen {
+    width: 100vw;
+    height: 100vh;
+    z-index: 40;
+    position: fixed;
+    inset: 0px;
+    filter: blur(1000px);
+    background-color: lightgray;
+}
+
+#modal-content {
+    border-radius: var(--radius);
+    position: fixed;
+    inset: 0px;
+    z-index: 50;
+    background-color: white;
+    width: 50rem;
+    height: 50vh;
+    justify-items: center;
+    margin: 100px auto auto auto;
+    padding: 16px;
+}
+.rightClose{
+    color: black;
+    border: black solid 2px;
+    margin-left: auto;
+    cursor: pointer;
+}
+.leftClose{
+    color: black;
+    border: black solid 2px;
+    margin-right: auto;
+    cursor: pointer;
+}
+#closeBtn:hover{
+    background-color: var(--secondary-color);
+}

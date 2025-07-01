@@ -1,0 +1,48 @@
+/* Container styling */
+.date-container {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Label */
+.date-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Date Input Styling */
+.date-container input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #f3f4f6;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Hover Animation */
+.date-container input[type="date"]:hover {
+  border-color: #6366f1;
+  background-color: #eef2ff;
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(99,102,241,0.2);
+}
+
+/* Focus Animation */
+.date-container input[type="date"]:focus {
+  outline: none;
+  border-color: #4f46e5;
+  background-color: #e0e7ff;
+  box-shadow: 0 0 0 4px rgba(99,102,241,0.2);
+  transform: scale(1.03);
+}

@@ -1,0 +1,29 @@
+.turfcard {
+    border-radius: var(--radius);
+    width: 466px;
+    height: 200px;
+    border: black 1px solid;
+    color: black;
+    padding: 16px;
+}
+
+#turfimage {
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    margin: 0px;
+}
+
+h6 {
+    color: gray;
+    padding: auto;
+    margin: 0px;
+}
+.turfcard-address{
+    display: flex;
+    gap: 4px;
+}

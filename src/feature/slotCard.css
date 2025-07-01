@@ -1,0 +1,16 @@
+#slot-card-container{
+    width: 60%;
+    margin: auto;
+    height: 20rem;
+    border: black 1px solid;
+    align-items: center;
+    align-content: center;
+    border-radius: var(--radius);
+}
+#slot-card-items{
+    border-radius: var(--radius);
+    margin: 0px 16px;
+    display: flex;
+    height: 12rem;
+    border: black 1px solid;
+}

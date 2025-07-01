@@ -1,0 +1,11 @@
+
+#container_nav{
+    height: 100vh;
+}
+#nav_container{
+    height: 80vh;
+    width: 80px;
+    
+    background-color: var(--primary-color);
+    border-radius: 16px;
+}

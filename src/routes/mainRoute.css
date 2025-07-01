@@ -1,0 +1,11 @@
+#main-route {
+    width: 100vw;
+    height: calc(100vh - 7rem);
+    padding: 0px 0px;
+    background-color: slategray;
+    overflow-y: auto;
+}
+
+#main-menu {
+    display: flex;
+}
