@@ -9,9 +9,7 @@ const Sports = () => {
     const handleHeaderVisible = (value) => {
         setHead(value)
     }
-    const handleMainScroll = () => {
-        console.log('scrolled...')
-    }
+   
     return (
         <section id="sports_container" >
             <div onMouseEnter={() => {
@@ -25,7 +23,6 @@ const Sports = () => {
 
             </div>
             <div
-                onScroll={handleMainScroll}
                 id='sports-layout-main'>
                 <div id='sports-layout-menu'>
                     {catagoryList.map((item) => (

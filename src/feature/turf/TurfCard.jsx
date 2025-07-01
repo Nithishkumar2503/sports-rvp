@@ -1,4 +1,5 @@
-import turf from "../assets/football-ground.jpg";
+import turf from "../../assets/football-ground.jpg";
+import { LazyLoadImage } from "../../components";
 import "./turfCard.css"
 const TurfCard = ({ props, onCustomEvent }) => {
     const { id, name, address, city, state, country } = props
@@ -7,8 +8,10 @@ const TurfCard = ({ props, onCustomEvent }) => {
     }
     return (
         <div onClick={onClick} className="turfcard" id={id}>
-            <img id="turfimage" src={turf} alt="" />
-            <h1>{name}</h1>
+            <div id="turf-card-img">
+                 <LazyLoadImage image={turf}/>
+            </div>
+            <h1>{name+" sports arena"}</h1>
             <div className="turfcard-address">
                 <h6>{address}</h6>
                 <h6>{city}</h6>

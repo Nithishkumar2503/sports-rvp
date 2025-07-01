@@ -6,6 +6,7 @@
     inset: 0px;
     filter: blur(1000px);
     background-color: lightgray;
+    cursor: pointer;
 }
 
 #modal-content {
@@ -14,24 +15,37 @@
     inset: 0px;
     z-index: 50;
     background-color: white;
-    width: 50rem;
-    height: 50vh;
+    width: fit-content;
+    height: fit-content;
     justify-items: center;
-    margin: 100px auto auto auto;
+    margin: 80px auto auto auto;
     padding: 16px;
+    transition: all 2s ease-in-out;
 }
-.rightClose{
+
+.rightClose {
+    margin-left: auto;
+}
+
+.leftClose {
+    margin-right: auto;
+}
+
+#closeBtn {
     color: black;
-    border: black solid 2px;
     margin-left: auto;
     cursor: pointer;
+    padding: 4px 10px;
+    border-radius: var(--radius);
 }
-.leftClose{
-    color: black;
-    border: black solid 2px;
-    margin-right: auto;
-    cursor: pointer;
-}
-#closeBtn:hover{
+
+#closeBtn:hover {
     background-color: var(--secondary-color);
+}
+
+#main-content {
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+
 }

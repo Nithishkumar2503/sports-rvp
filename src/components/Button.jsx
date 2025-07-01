@@ -1,7 +1,9 @@
 import "./styles/button.css"
-const button = ({ name }) => {
+const button = ({ name,onClick }) => {
     return (
-        <button id="react_button"
+        <button
+        onClick={onClick} 
+         id="react_button"
         >
             {name ? name : "submit"}
         </button>

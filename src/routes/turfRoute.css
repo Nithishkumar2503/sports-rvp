@@ -1,11 +1,10 @@
 #turf-route-container {
     width: 80%;
     margin: auto;
-    height: 20rem;
-    border: black 1px solid;
     align-items: center;
     align-content: center;
     border-radius: var(--radius);
+    height: auto;
 }
 
 #turf-card-container {

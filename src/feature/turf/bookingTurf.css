@@ -1,0 +1,11 @@
+#turf-book-container {
+  width: 50rem;
+  height: 40rem;
+}
+#turf-booking-head {
+  padding: 16px;
+  height: 10rem;
+  background-color: var(--secondary-color);
+  border-radius: var(--radius);
+}
+
