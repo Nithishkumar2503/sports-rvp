@@ -1,4 +1,4 @@
-import './styles/input-text.css'
+import './input-text.css'
 function inputText({name,id}) {
 
     return (

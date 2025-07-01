@@ -1,0 +1,40 @@
+#view-turf{
+    width: 60rem;
+    height: 44rem;
+    background-color: var(--secondary-color);
+    padding: 16px;
+    border-radius: var(--radius);
+
+}
+#turf-images{
+    width: 100%;
+    height: 30rem;
+    padding-bottom: 20px;
+    border-bottom: var(--primary-color) solid 2px;
+}
+#name-btn{
+    padding: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+#turf-name{
+    margin: auto 0px;
+}
+#turf-rating{
+    padding: 8px;
+    color: black;
+    height: fit-content;
+    gap: 8px;
+    display: flex;
+}
+#turf-complement{
+    padding: 8px;
+}
+#turf-address{
+    display: flex;
+    gap: 2px;
+    padding: 8px;
+
+}

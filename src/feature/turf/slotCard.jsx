@@ -1,4 +1,3 @@
-import { DatePicker } from "../components/index.js";
 import  "./slotCard.css";
 const SlotCard=()=>{
     return (

@@ -9,9 +9,7 @@ function App({ children }) {
   const handleHeaderVisible = (value) => {
     setHead(value)
   }
-  const handleMainScroll = () => {
-    console.log('scrolled...')
-  }
+  
 
   return (
     <MainLayout
