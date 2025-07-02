@@ -8,4 +8,15 @@
   background-color: var(--secondary-color);
   border-radius: var(--radius);
 }
+#turf-booking-body{
+  justify-items: center;
+}
+#slot-time{
+  display: flex;
+  width: fit-content;
+}
+#turf-booking-form{
+  width: 20rem;
+  border: solid 1px black;
+}
 

@@ -1,0 +1,29 @@
+#date-picker {
+  background-color: white;
+  color: black;
+  height: 38px;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0px 8px;
+  border: 1px lightgray solid;
+}
+#date-picker-container {
+  padding: 0px 8px ;
+}
+input[type="date"] {
+  background-color: whitesmoke;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.date-picker-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

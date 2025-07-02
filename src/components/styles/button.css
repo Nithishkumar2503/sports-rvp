@@ -1,20 +1,20 @@
 #react_button {
-    border: none;
-    padding: 10px 10px;
-    width: 150px;
-    background-color: var(--primary-color);
-    color: white;
+  padding: 10px 10px;
+  width: 150px;
+  background-color: var(--primary-color);
+  color: white;
+  margin: 8px;
 }
 
 #react_button:focus {
-    border: none;
-    width: 150px;
-    background-color: var(--primary-color);
-    color: white;
+  border: none;
+  width: 150px;
+  border: 1px solid blue;
+  color: white;
 }
 
 #react_button:active {
-    border: none;
-    background-color: white;
-    color: var(--primary-color);
+  border: 1px solid blue;
+  background-color: white;
+  color: var(--primary-color);
 }

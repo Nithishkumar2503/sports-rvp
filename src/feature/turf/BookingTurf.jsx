@@ -1,6 +1,14 @@
 import "./bookingTurf.css";
 import { FaRegStar } from "react-icons/fa";
-import { InputText } from "../../components";
+import {
+  Button,
+  DatePicker,
+  FormWrapper,
+  InputText,
+  SelectComponent,
+  TimePicker,
+} from "../../components";
+import { cityList } from "../../utils/global-list";
 const bookingTurf = ({ turfDetail }) => {
   const { name, complementry, address, city, state, country, pincode, phone } =
     turfDetail;
@@ -31,7 +39,25 @@ const bookingTurf = ({ turfDetail }) => {
           </div>
         </div>
         <div id="turf-booking-body">
-          <InputText />
+          <FormWrapper
+            content={
+              <div id="turf-booking-form">
+                <InputText label={"Candidate Name"} />
+                <InputText label={"Phone"} />
+                <SelectComponent options={cityList} label={"Location"} />
+                <DatePicker label={"Date"} />
+                <div id="slot-time">
+                  <div>
+                  <TimePicker label={"From"} />
+                  </div>
+                  <div>
+                  <TimePicker label={"To"} />
+                  </div>
+                </div>
+                <Button name={"Pay now"} />
+              </div >
+            }
+          ></FormWrapper>
         </div>
       </div>
     </>
