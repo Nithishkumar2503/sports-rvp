@@ -2,7 +2,6 @@ import { MainLayout } from "./layouts/index";
 import { Header } from "./components/index";
 import { useState } from "react";
 import { ChildrenProps } from "./type";
-import "./App.css";
 
 function App({ children }: ChildrenProps) {
   const [isHead, setHead] = useState(false);
@@ -14,6 +13,7 @@ function App({ children }: ChildrenProps) {
       children={
         <>
           <section
+            className="h-[90px] w-[100vw] bg-green-200"
             onMouseEnter={() => {
               handleHeaderVisible(true);
             }}
@@ -24,7 +24,12 @@ function App({ children }: ChildrenProps) {
           >
             {isHead ? <Header child={undefined} /> : null}
           </section>
-          <section id="main_content">{children}</section>
+          <section
+            className="w-screen overflow-y-auto h-[calc(100%-5.6rem)] bg-primary"
+            id="main_content"
+          >
+            {children}
+          </section>
         </>
       }
     ></MainLayout>

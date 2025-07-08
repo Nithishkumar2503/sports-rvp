@@ -1,4 +1,3 @@
-import "./turfRoute.css";
 import { BookingTurf, SlotCard, TurfCard, ViewTurf } from "../feature/index";
 import { turfList } from "../store";
 import { useState } from "react";
@@ -12,7 +11,7 @@ const TurfRoute = () => {
     setSelectedTurf(data);
   };
   return (
-    <div id="turf-route-container">
+    <div id="turf-route-container" className="w-[80%] mx-auto items-center content-center rounded-[var(--radius)] h-auto">
       {isViewTurf || isBookTurf ? (
         <Modal
           content={
@@ -35,7 +34,10 @@ const TurfRoute = () => {
         />
       ) : null}
       {/* <SlotCard /> */}
-      <div id="turf-card-container">
+      <div
+        id="turf-card-container"
+        className="flex justify-items-center flex-wrap gap-[10px] bg-primary items-center "
+      >
         {turfList.map((item) => {
           return (
             <TurfCard

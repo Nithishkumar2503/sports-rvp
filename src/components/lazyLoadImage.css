@@ -1,12 +1,3 @@
-.lazy-load-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Keeps full image visible */
-    border-radius: var(--radius);
-    display: block;
-    transition: opacity 2s ease-in-out;
-   
-}
 
 .lazy-load-image:loaded,
 .lazy-load-image[src] {

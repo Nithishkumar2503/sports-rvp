@@ -1,7 +1,6 @@
-import "./formWrapper.css";
 
 const formWrapper = ({ content }) => {
-  return <div id="formWrapper">{content}</div>;
+  return <div id="formWrapper" className="p-2">{content}</div>;
 };
 
 export default formWrapper;
